@@ -1,0 +1,13 @@
+{
+  "project": "Обнаружение дефектов на металле",
+  "date": "2026-02-05T21:05:33.188147",
+  "classification_accuracy": 0.981,
+  "total_test_images": 210,
+  "errors": 4,
+  "error_rate": "1.9%",
+  "best_class": "scratch",
+  "worst_confusion": "dent vs crack",
+  "anomaly_detection_recall": 0.9944,
+  "yolo_status": "not_recommended",
+  "recommendation": "Use classification as main system"
+}

@@ -1,0 +1,15 @@
+КОНФУЗИОННАЯ МАТРИЦА (из ошибок в detailed_predictions.csv)
+
+          no_defect  crack   dent    scratch  ← Предсказано
+no_defect    30       0       0        0
+crack        0       60       0        0  
+dent         0        3      57        0
+scratch      1        0       0       59
+    ↑
+   Истина
+
+Ошибки (4 из 210 = 1.9%):
+1. pitted_surface_253.jpg: dent → crack (91%)
+2. pitted_surface_254.jpg: dent → crack (68%)
+3. pitted_surface_270.jpg: dent → crack (49%)
+4. scratches_290.jpg: scratch → no_defect (92%)

@@ -1,0 +1,93 @@
+{
+  "project": "Defect Detection on Metal Surfaces",
+  "date": "05.02.2026 20:46",
+  "approaches": {
+    "classification": {
+      "accuracy": 0.981,
+      "precision_macro": 0.98,
+      "recall_macro": 0.98,
+      "f1_macro": 0.98,
+      "class_metrics": {
+        "no_defect": {
+          "precision": 0.97,
+          "recall": 1.0,
+          "f1": 0.98,
+          "support": 30
+        },
+        "crack": {
+          "precision": 0.95,
+          "recall": 1.0,
+          "f1": 0.98,
+          "support": 60
+        },
+        "dent": {
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1": 0.97,
+          "support": 60
+        },
+        "scratch": {
+          "precision": 1.0,
+          "recall": 0.98,
+          "f1": 0.99,
+          "support": 60
+        }
+      },
+      "training_time_sec": 300,
+      "inference_speed_fps": 35,
+      "model_size_mb": 20,
+      "errors_count": 4,
+      "error_rate": "1.9%"
+    },
+    "anomaly_detection": {
+      "accuracy": 0.9476,
+      "precision": 0.9471,
+      "recall": 0.9944,
+      "f1_score": 0.9702,
+      "roc_auc": 0.9774,
+      "pr_auc": 0.9962,
+      "optimal_threshold": 0.0042,
+      "training_time_sec": 90.44,
+      "inference_speed_fps": 50,
+      "model_size_mb": 15
+    },
+    "object_detection": {
+      "status": "not_recommended",
+      "map50": 0.26,
+      "precision": 0.321,
+      "recall": 0.466,
+      "issues": [
+        "Defects often occupy entire image area",
+        "Manual bbox annotation impractical for 900+ images",
+        "Artificial bboxes don't match real defects"
+      ]
+    }
+  },
+  "dataset": {
+    "name": "NEU Surface Defect Database",
+    "total_images": 900,
+    "train": 612,
+    "val": 108,
+    "test": 210,
+    "classes": [
+      "crack",
+      "dent",
+      "scratch",
+      "no_defect"
+    ],
+    "normal_images_source": "Created from clean patches of scratch images"
+  },
+  "recommendations": {
+    "primary_system": "Classification (EfficientNet-B0)",
+    "fallback_system": "Anomaly Detection (Autoencoder)",
+    "not_recommended": "Object Detection (YOLO)",
+    "production_metrics": {
+      "target_accuracy": ">95%",
+      "achieved_accuracy": "98.1%",
+      "target_inference_time": "<100ms",
+      "achieved_inference_time": "~30ms",
+      "target_recall_anomalies": ">99%",
+      "achieved_recall_anomalies": "99.44%"
+    }
+  }
+}

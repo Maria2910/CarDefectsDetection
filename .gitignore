@@ -1,0 +1,93 @@
+# create_gitignore.py
+"""
+Создание .gitignore для проекта
+"""
+gitignore_content = """
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdk/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (большие файлы)
+data/
+*.zip
+*.tar
+*.gz
+
+# Модели (можно загрузить отдельно или использовать LFS)
+models/*.pth
+!models/README.txt
+
+# Результаты (кроме итоговых отчетов)
+results/
+!final_project/
+
+# Временные файлы
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Логи
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch
+*.pth
+*.bin
+*.safetensors
+
+# YOLO
+yolo_training/
+runs/
+
+# Anomalib
+lightning_logs/
+"""
+
+with open(".gitignore", "w", encoding="utf-8") as f:
+    f.write(gitignore_content)
+
+print("✅ .gitignore создан")
