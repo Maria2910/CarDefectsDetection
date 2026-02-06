@@ -1,0 +1,820 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-06T15:42:31.392752",
+    "total_images": 40,
+    "model_used": "EfficientNet-B0"
+  },
+  "statistics": {
+    "total_processed": 40,
+    "by_class": {
+      "no_defect": 10,
+      "crack": 10,
+      "dent": 10,
+      "scratch": 10
+    },
+    "low_confidence": 0,
+    "timestamp": "2026-02-06T15:42:31.392752"
+  },
+  "predictions": [
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0000.jpg",
+      "image_name": "normal_scratch_0000.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999755620956421,
+      "all_probabilities": [
+        0.9999755620956421,
+        8.203860346611691e-08,
+        2.473661311341857e-07,
+        2.4049586500041187e-05
+      ],
+      "original_size": [
+        199,
+        199
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0001.jpg",
+      "image_name": "normal_scratch_0001.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999856948852539,
+      "all_probabilities": [
+        0.9999856948852539,
+        3.307846796474223e-08,
+        8.931696982017456e-08,
+        1.4217153875506483e-05
+      ],
+      "original_size": [
+        100,
+        100
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0002.jpg",
+      "image_name": "normal_scratch_0002.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999828338623047,
+      "all_probabilities": [
+        0.9999828338623047,
+        4.161384126177836e-08,
+        1.1292973312038157e-07,
+        1.7085676518036053e-05
+      ],
+      "original_size": [
+        100,
+        100
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0003.jpg",
+      "image_name": "normal_scratch_0003.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999855756759644,
+      "all_probabilities": [
+        0.9999855756759644,
+        3.4284546757135104e-08,
+        8.99659866604452e-08,
+        1.433193938282784e-05
+      ],
+      "original_size": [
+        100,
+        100
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0004.jpg",
+      "image_name": "normal_scratch_0004.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999889135360718,
+      "all_probabilities": [
+        0.9999889135360718,
+        2.643135488256121e-08,
+        8.514360416711497e-08,
+        1.0999870937666856e-05
+      ],
+      "original_size": [
+        100,
+        100
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0005.jpg",
+      "image_name": "normal_scratch_0005.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999940395355225,
+      "all_probabilities": [
+        0.9999940395355225,
+        1.2236205826354762e-08,
+        3.610724164104795e-08,
+        5.9545204749156255e-06
+      ],
+      "original_size": [
+        100,
+        100
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0006.jpg",
+      "image_name": "normal_scratch_0006.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999948740005493,
+      "all_probabilities": [
+        0.9999948740005493,
+        6.37670449776806e-09,
+        2.011186950312549e-08,
+        5.0881944844149984e-06
+      ],
+      "original_size": [
+        171,
+        171
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0007.jpg",
+      "image_name": "normal_scratch_0007.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.999994158744812,
+      "all_probabilities": [
+        0.999994158744812,
+        8.274160023802324e-09,
+        2.301801593773689e-08,
+        5.8122318478126545e-06
+      ],
+      "original_size": [
+        100,
+        100
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0008.jpg",
+      "image_name": "normal_scratch_0008.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999964237213135,
+      "all_probabilities": [
+        0.9999964237213135,
+        4.619904458991186e-09,
+        1.5776379314047517e-08,
+        3.5393520647630794e-06
+      ],
+      "original_size": [
+        183,
+        183
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\no_defect\\normal_scratch_0009.jpg",
+      "image_name": "normal_scratch_0009.jpg",
+      "predicted_class": "no_defect",
+      "predicted_class_display": "Норма",
+      "confidence": 0.9999955892562866,
+      "all_probabilities": [
+        0.9999955892562866,
+        6.466018831474685e-09,
+        1.6628716181799064e-08,
+        4.419139258970972e-06
+      ],
+      "original_size": [
+        100,
+        100
+      ],
+      "true_class": "no_defect",
+      "true_class_display": "Норма",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_10.jpg",
+      "image_name": "crazing_10.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9999402761459351,
+      "all_probabilities": [
+        1.3896217751607765e-05,
+        0.9999402761459351,
+        2.974599919980392e-05,
+        1.5933856047922745e-05
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_111.jpg",
+      "image_name": "crazing_111.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9987416863441467,
+      "all_probabilities": [
+        0.0003704005794133991,
+        0.9987416863441467,
+        0.0003944530035369098,
+        0.0004934828612022102
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_117.jpg",
+      "image_name": "crazing_117.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9999834299087524,
+      "all_probabilities": [
+        2.923941792687401e-06,
+        0.9999834299087524,
+        1.1464935596450232e-05,
+        2.1050302621006267e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_118.jpg",
+      "image_name": "crazing_118.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9999262094497681,
+      "all_probabilities": [
+        1.5909505236777477e-05,
+        0.9999262094497681,
+        4.623287168215029e-05,
+        1.172781139757717e-05
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_132.jpg",
+      "image_name": "crazing_132.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9999727010726929,
+      "all_probabilities": [
+        4.916970283375122e-06,
+        0.9999727010726929,
+        1.9618950318545103e-05,
+        2.7794289962912444e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_142.jpg",
+      "image_name": "crazing_142.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9991940855979919,
+      "all_probabilities": [
+        0.0002421138051431626,
+        0.9991940855979919,
+        0.00038501553353853524,
+        0.0001787819928722456
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_146.jpg",
+      "image_name": "crazing_146.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9999812841415405,
+      "all_probabilities": [
+        3.2028458463173592e-06,
+        0.9999812841415405,
+        1.2898745808342937e-05,
+        2.6114405500266002e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_150.jpg",
+      "image_name": "crazing_150.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9999715089797974,
+      "all_probabilities": [
+        6.887797098897863e-06,
+        0.9999715089797974,
+        1.603493365109898e-05,
+        5.537694505619584e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_163.jpg",
+      "image_name": "crazing_163.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9999687671661377,
+      "all_probabilities": [
+        8.16513056633994e-06,
+        0.9999687671661377,
+        1.4977695173001848e-05,
+        8.13584938441636e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\crack\\crazing_166.jpg",
+      "image_name": "crazing_166.jpg",
+      "predicted_class": "crack",
+      "predicted_class_display": "Трещина",
+      "confidence": 0.9961457252502441,
+      "all_probabilities": [
+        0.0014048649463802576,
+        0.9961457252502441,
+        0.001341868075542152,
+        0.0011075639631599188
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "crack",
+      "true_class_display": "Трещина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_10.jpg",
+      "image_name": "pitted_surface_10.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 0.9999892711639404,
+      "all_probabilities": [
+        1.970279754459625e-06,
+        3.1652853067498654e-06,
+        0.9999892711639404,
+        5.58979172637919e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_104.jpg",
+      "image_name": "pitted_surface_104.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 0.999245285987854,
+      "all_probabilities": [
+        0.00021133371046744287,
+        0.00031729822512716055,
+        0.999245285987854,
+        0.0002260440232930705
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_106.jpg",
+      "image_name": "pitted_surface_106.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 0.9999970197677612,
+      "all_probabilities": [
+        3.1958799695530615e-07,
+        6.358179689414101e-07,
+        0.9999970197677612,
+        2.084927928081015e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_108.jpg",
+      "image_name": "pitted_surface_108.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 0.9996494054794312,
+      "all_probabilities": [
+        7.762072345940396e-05,
+        0.00013721406867261976,
+        0.9996494054794312,
+        0.0001356786087853834
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_131.jpg",
+      "image_name": "pitted_surface_131.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 0.9999998807907104,
+      "all_probabilities": [
+        1.5499134198293518e-09,
+        1.808866834096534e-08,
+        0.9999998807907104,
+        1.42231996846931e-07
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_133.jpg",
+      "image_name": "pitted_surface_133.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        8.08053846274373e-15,
+        8.159688744992233e-13,
+        1.0,
+        1.1104644981330125e-11
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_136.jpg",
+      "image_name": "pitted_surface_136.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        2.3707996913438717e-16,
+        8.808291383332733e-15,
+        1.0,
+        8.110822939926682e-14
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_141.jpg",
+      "image_name": "pitted_surface_141.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        2.253698021660675e-15,
+        9.152717510762728e-14,
+        1.0,
+        9.654302097344969e-13
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_152.jpg",
+      "image_name": "pitted_surface_152.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 0.9999957084655762,
+      "all_probabilities": [
+        4.70863568580171e-07,
+        1.455438678021892e-06,
+        0.9999957084655762,
+        2.361727638344746e-06
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\dent\\pitted_surface_172.jpg",
+      "image_name": "pitted_surface_172.jpg",
+      "predicted_class": "dent",
+      "predicted_class_display": "Вмятина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        2.6334217272444755e-16,
+        2.6043034238474802e-14,
+        1.0,
+        9.76403880708146e-14
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "dent",
+      "true_class_display": "Вмятина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_1.jpg",
+      "image_name": "scratches_1.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 0.9999973773956299,
+      "all_probabilities": [
+        1.054327640304109e-06,
+        4.08821023256678e-07,
+        1.190861439681612e-06,
+        0.9999973773956299
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_10.jpg",
+      "image_name": "scratches_10.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        5.182638172784859e-13,
+        6.997973164488136e-13,
+        1.3485319631800774e-12,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_101.jpg",
+      "image_name": "scratches_101.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        1.0193923927204196e-08,
+        1.8285529534978195e-08,
+        2.00549727935595e-08,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_109.jpg",
+      "image_name": "scratches_109.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        4.905792438947287e-10,
+        8.280486851752755e-10,
+        9.549578905421185e-10,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_112.jpg",
+      "image_name": "scratches_112.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        1.1438437697020021e-10,
+        1.3803838627701737e-10,
+        1.5551632204235943e-10,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_12.jpg",
+      "image_name": "scratches_12.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        7.260105849837828e-09,
+        4.321008439944762e-09,
+        9.395561662017826e-09,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_128.jpg",
+      "image_name": "scratches_128.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 0.9999998807907104,
+      "all_probabilities": [
+        1.1640359787179477e-08,
+        1.7003138452764688e-08,
+        9.621420815619786e-08,
+        0.9999998807907104
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_129.jpg",
+      "image_name": "scratches_129.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        2.4121457609105335e-10,
+        4.5361295275547775e-10,
+        1.630649726358513e-09,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_157.jpg",
+      "image_name": "scratches_157.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        2.5128590180889532e-11,
+        4.655111712770221e-11,
+        7.878838553798673e-11,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    },
+    {
+      "image_path": "data\\classification\\val\\scratch\\scratches_159.jpg",
+      "image_name": "scratches_159.jpg",
+      "predicted_class": "scratch",
+      "predicted_class_display": "Царапина",
+      "confidence": 1.0,
+      "all_probabilities": [
+        1.127411879131568e-11,
+        3.663622877292383e-11,
+        3.70103669933286e-11,
+        1.0
+      ],
+      "original_size": [
+        200,
+        200
+      ],
+      "true_class": "scratch",
+      "true_class_display": "Царапина",
+      "correct": true
+    }
+  ]
+}
